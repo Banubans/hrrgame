@@ -26,3 +26,13 @@ shape = SubResource("RectangleShape2D_52ak3")
 [node name="BlockShape" type="CollisionShape2D" parent="DoorBlock" unique_id=1415055627]
 position = Vector2(387, 150)
 shape = SubResource("RectangleShape2D_xcwab")
+
+[node name="MessageLabel" type="Label" parent="." unique_id=2114371885]
+modulate = Color(1, 1, 1, 0)
+offset_left = 233.0
+offset_top = 141.0
+offset_right = 273.0
+offset_bottom = 175.0
+offset_transform_enabled = true
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
